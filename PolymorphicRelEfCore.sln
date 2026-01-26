@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreTph", "EfCoreTph\EfCoreTph.csproj", "{AAC1EE1A-F860-460C-8F80-4DF2AA6D5D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreTpt", "EfCoreTpt\EfCoreTpt.csproj", "{4515A25E-954C-4F2E-8EE1-41A68B96AF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreTpc", "EfCoreTpc\EfCoreTpc.csproj", "{5FEA62A4-FD13-4F06-814C-277D8D026F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC1EE1A-F860-460C-8F80-4DF2AA6D5D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC1EE1A-F860-460C-8F80-4DF2AA6D5D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC1EE1A-F860-460C-8F80-4DF2AA6D5D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC1EE1A-F860-460C-8F80-4DF2AA6D5D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4515A25E-954C-4F2E-8EE1-41A68B96AF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4515A25E-954C-4F2E-8EE1-41A68B96AF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4515A25E-954C-4F2E-8EE1-41A68B96AF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4515A25E-954C-4F2E-8EE1-41A68B96AF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEA62A4-FD13-4F06-814C-277D8D026F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEA62A4-FD13-4F06-814C-277D8D026F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEA62A4-FD13-4F06-814C-277D8D026F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEA62A4-FD13-4F06-814C-277D8D026F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
