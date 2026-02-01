@@ -10,7 +10,7 @@ public class ApplicationDbContext: DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
         options.UseNpgsql(
-            "Host=localhost;Port=5433;Database=strongIdsDb;Username=postgres;Password=1234");
+            "Host=localhost;Port=5433;Database=tptDb;Username=postgres;Password=1234");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
