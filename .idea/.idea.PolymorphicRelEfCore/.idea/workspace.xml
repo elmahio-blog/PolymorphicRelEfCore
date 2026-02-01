@@ -10,17 +10,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00509db7-db7d-476c-8341-d318a150726a" name="Changes" comment="">
+    <list default="true" id="00509db7-db7d-476c-8341-d318a150726a" name="Changes" comment="Migrations added">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PolymorphicRelEfCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PolymorphicRelEfCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfCoreTpc/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfCoreTpc/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfCoreTph/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfCoreTph/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfCoreTph/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfCoreTph/Models/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfCoreTpt/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfCoreTpt/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfCoreTpc/Migrations/20260201130816_InitialDb.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfCoreTpc/Migrations/20260201130816_InitialDb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfCoreTpc/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfCoreTpc/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfCoreTpc/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfCoreTpc/Models/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfCoreTph/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfCoreTph/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +41,9 @@
     &quot;accountId&quot;: &quot;4708c4df-f60e-4c71-be96-2a4421625a58&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Elmah.io/PolymorphicRelEfCore/EfCoreTpc/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -49,19 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.EfCoreTpc.executor": "Debug",
+    ".NET Project.EfCoreTph.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "XThreadsFramesViewSplitterKey": "0.568873",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Project.EfCoreTpc">
+}]]></component>
+  <component name="RunManager" selected=".NET Project.EfCoreTph">
     <configuration name="ConsoleApp1EfCoreTpt" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -144,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1769355963899</updated>
       <workItem from="1769355969136" duration="3735000" />
-      <workItem from="1769950744487" duration="1604000" />
+      <workItem from="1769950744487" duration="8538000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -154,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769406642925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Migrations added">
+      <option name="closed" value="true" />
+      <created>1769952524090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769952524090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Migrations added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrations added" />
   </component>
 </project>

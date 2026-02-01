@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EfCoreTpc.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260201130816_InitialDb")]
+    [Migration("20260201142946_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
@@ -52,7 +52,7 @@ namespace EfCoreTpc.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees");
+                    b.ToTable((string)null);
 
                     b.UseTpcMappingStrategy();
                 });

@@ -49,7 +49,7 @@ namespace EfCoreTpc.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees");
+                    b.ToTable((string)null);
 
                     b.UseTpcMappingStrategy();
                 });

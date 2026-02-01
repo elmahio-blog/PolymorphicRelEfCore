@@ -32,21 +32,6 @@ namespace EfCoreTpc.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Employees",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false, defaultValueSql: "nextval('\"EmployeeSequence\"')"),
-                    Name = table.Column<string>(type: "text", nullable: false),
-                    Email = table.Column<string>(type: "text", nullable: false),
-                    HireDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    BaseSalary = table.Column<decimal>(type: "numeric", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Employees", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "FullTimeEmployees",
                 columns: table => new
                 {
@@ -86,9 +71,6 @@ namespace EfCoreTpc.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Contractors");
-
-            migrationBuilder.DropTable(
-                name: "Employees");
 
             migrationBuilder.DropTable(
                 name: "FullTimeEmployees");

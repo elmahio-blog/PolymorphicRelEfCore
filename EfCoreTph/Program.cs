@@ -44,11 +44,16 @@ Console.WriteLine("Employees inserted.");
 var partTimers = 
     await db.Employees.OfType<PartTimeEmployee>().ToListAsync();
 
+foreach (var item in partTimers)
+{
+    Console.WriteLine(item.Name);
+    Console.WriteLine(item.Email);
+    Console.WriteLine(item.HireDate);
+    Console.WriteLine(item.BaseSalary);
+    Console.WriteLine(item.WeeklyHours);
+    Console.WriteLine(item.HourlyRate);
+}
 
-/*
-var fullTimers = 
-    await db.Employees.OfType<FullTimeEmployee>().ToListAsync();*/
-    
 var employees = await db.Employees.ToListAsync();
 
 foreach (var emp in employees)
