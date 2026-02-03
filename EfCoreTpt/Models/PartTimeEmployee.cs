@@ -1,3 +1,5 @@
+using EfCoreTpt.Models;
+
 namespace EfCoreTph.Models;
 
 public class PartTimeEmployee: Employee

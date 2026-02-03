@@ -1,6 +1,6 @@
-namespace EfCoreTph.Models;
+namespace EfCoreTpt.Models;
 
-public class Employee
+public abstract class Employee
 {
     
     public int Id { get; set; }
